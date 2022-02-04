@@ -1,11 +1,76 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #BD7ED9;
+    --cor2: #8437A6;
+    --cor3: #4B2273;
+    --cor4: #181240;
+    --cor5: #0D0A26;
+    --cor6: #070618;
+}
+
 * {
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
-    background-color: #181820;
+    background-color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(14, 14, 14);
+    min-height: 5vh;
+}
+
+header > nav > #menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu > li {
+    padding: 10px;
+}
+
+#menu > li > a {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+main {
     color: white;
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+main > p {
+    line-height: 1.8em;
+}
+
+section.image {
+    box-shadow: inset 6px 6px 13px 0px rgba(5, 5, 5, 0.473);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 500px;
+}
+
+section#img1 {
+    background-image: url("../images/lua1.jpg");
+    background-position: center center;
+}
+
+section#img2 {
+    background-image: url("../images/fases-lua.jpg");
+    background-position: center top;
+}
+
+footer {
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 8px;
 }
