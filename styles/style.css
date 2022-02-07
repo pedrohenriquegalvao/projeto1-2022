@@ -22,7 +22,10 @@ body {
 }
 
 header {
-    background-color: rgb(14, 14, 14);
+    background-image: url('../images/estrelas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
     min-height: 5vh;
 }
 
@@ -40,15 +43,33 @@ header > nav > #menu {
     font-weight: bold;
 }
 
-main {
+main > article {
     color: white;
     margin: auto;
     max-width: 1000px;
     padding: 20px;
 }
 
-main > p {
+main > article > h1, h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main > article > p {
     line-height: 1.8em;
+    text-align: justify;
+    margin: 8px 0px 8px 0px;
+}
+
+main > article > h2 {
+    background-color: var(--cor3);
+    padding: 8px;
+}
+
+main > article > img.nathy1 {
+    display: block;
+    width: 300px;
+    margin: auto;
 }
 
 section.image {
@@ -56,17 +77,80 @@ section.image {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    height: 500px;
+    height: 600px;
+}
+
+div#container_img1 > p, div#container_img2 > p, div#container_img3 > p {
+    color: var(--cor2);
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+div#musica {
+    background-color: var(--cor4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.404);
+}
+
+div#musica > audio {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    max-width: 280px;
 }
 
 section#img1 {
-    background-image: url("../images/lua1.jpg");
+    background-image: url("../images/27-11-2021.jpg");
     background-position: center center;
+    padding: 20px;
 }
 
 section#img2 {
-    background-image: url("../images/fases-lua.jpg");
+    background-image: url("../images/13-12-2021.jpg");
+    background-position: center center;
+}
+
+section#img3 {
+    background-image: url("../images/26-01-2022.jpg");
+    background-position: center center;
+}
+
+section#img4 {
+    background-image: url("../images/lua1.jpg");
     background-position: center top;
+    padding: 20px;
+}
+
+section#img4 > p{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1.3em;
+    max-width: 600px;
+    padding: 5px;
+}
+
+section#img5 {
+    background-image: url("../images/lua2.jpg");
+    background-position: center top;
+    padding: 20px;
+}
+
+section#img5 > p{
+    background-color: rgba(0, 0, 0, 0.322);
+    color: white;
+    margin: 100px auto;
+    font-size: 1.3em;
+    font-weight: bold;
+    max-width: 600px;
+    padding: 5px;
 }
 
 footer {
