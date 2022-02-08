@@ -30,18 +30,19 @@ header {
 }
 
 header > nav > #menu {
+    padding: 5px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #menu > li {
-    padding: 10px;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 #menu > li > a {
     color: var(--cor1);
     font-weight: bold; 
-    padding: 10px 20px;
 }
 
 main > article {

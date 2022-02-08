@@ -1,0 +1,24 @@
+main {
+    background-color: var(--cor6);
+    max-width: 1100px;
+    margin: auto;
+}
+
+section#section-fotos {
+    background-color: var(--cor4);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+div.foto, div.video {
+    padding: 10px;
+}
+
+@media (max-width: 400px) {
+    img, video {
+        max-width: 140px;
+    }
+}

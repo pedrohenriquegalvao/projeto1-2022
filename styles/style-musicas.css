@@ -1,0 +1,24 @@
+main {
+    background-color: var(--cor6);
+    max-width: 1100px;
+    margin: auto;
+}
+
+section#section-musicas {
+    background-color: var(--cor4);
+    padding: 20px;
+}
+
+div.container-video {
+    margin: auto;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.container-video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
