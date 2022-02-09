@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
 main {
     background-color: #1E1045;
     max-width: 1100px;
     margin: auto;
+    padding-top: 10px;
+}
+
+main hr {
+    border-color: var(--cor1);
+    margin: 10px 0px;
 }
 
 main h1 {
     color: white;
     text-align: center;
-    padding: 40px 10px 25px 10px;
+    font-family: 'Song Myung', serif;
+    padding: 40px 10px 40px 10px;
 }
 
 section.section-musicas {
@@ -25,8 +34,7 @@ div.musica {
 }
 
 div.musica > p {
-    margin-bottom: 15px;
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 div.musica > audio, img {
@@ -38,22 +46,3 @@ div.musica > p {
     color: white;
     font-weight: bold;
 }
-
-/*section#section-musicas {
-    background-color: var(--cor4);
-    padding: 20px;
-}
-
-div.container-video {
-    margin: auto;
-    padding-bottom: 59%;
-    position: relative;
-}
-
-div.container-video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-}*/
