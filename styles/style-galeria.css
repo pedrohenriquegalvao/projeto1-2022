@@ -5,7 +5,7 @@ main {
 }
 
 section#section-fotos {
-    background-color: var(--cor4);
+    background-color: #1E1045;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
