@@ -23,6 +23,7 @@ section.section-musicas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 40px 0px 75px 0px;
 }
 
 div.musica {

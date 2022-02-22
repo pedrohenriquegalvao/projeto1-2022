@@ -11,6 +11,10 @@
     --cor6: #070618;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -174,4 +178,24 @@ footer {
     background-color: var(--cor1);
     text-align: center;
     padding: 8px;
+}
+
+.seta {
+    position: fixed;
+    cursor: pointer;
+    bottom: 4rem;
+    right: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    box-shadow: 1px 1.5px 1.5px rgba(0, 0, 0, 0.747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));
+}
+
+.seta a {
+    color: white;
+    font-size: 1.3rem;
 }

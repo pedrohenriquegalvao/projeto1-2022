@@ -12,7 +12,16 @@ section#section-fotos {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px;
+    padding: 40px 0px 75px 0px;
+}
+
+section#section-fotos {
+    background-color: #1E1045;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 75px 0px;
 }
 
 div.foto, div.video {
