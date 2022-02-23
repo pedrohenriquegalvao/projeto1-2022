@@ -28,11 +28,15 @@ body {
 }
 
 header {
-    background-image: url('../images/estrelas.jpg');
+    background-image: url('../images/desenho-noite.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    min-height: 5vh;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100vh;
+}
+
+header nav {
+    height: 5%;
 }
 
 header > nav > #menu {
@@ -50,6 +54,18 @@ header > nav > #menu {
 #menu > li > a {
     color: var(--cor1);
     font-weight: bold; 
+}
+
+.home {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.home h1 {
+    color: white;
 }
 
 main > article {
