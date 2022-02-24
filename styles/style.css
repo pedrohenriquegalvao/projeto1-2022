@@ -111,7 +111,7 @@ section.image {
     box-shadow: inset 6px 6px 13px 0px rgba(5, 5, 5, 0.473);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    /*background-attachment: fixed;*/
     height: 600px;
 }
 
