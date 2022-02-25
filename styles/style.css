@@ -92,6 +92,7 @@ main > article > h1, h2 {
 }
 
 main > article > p {
+    font-size: 1.2rem;
     line-height: 1.8em;
     text-align: justify;
     text-indent: 1rem;
@@ -113,11 +114,7 @@ section.image {
     box-shadow: inset 6px 6px 13px 0px rgba(5, 5, 5, 0.473);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -webkit-background-attachment: fixed;
-    height: 600px;
-    transform: scale(1.1, 1.1);
+    height: 90vh;
 }
 
 div#container_img1 > p, div#container_img2 > p, div#container_img3 > p {
