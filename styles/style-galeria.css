@@ -36,12 +36,13 @@ div.foto > p, div.video > p {
     transform: translateY(-4px);
 }
 
+
 div.video > p {
     transform: translateY(-5px);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     img, video {
-        max-width: 140px;
+        width: 270px;
     }
 }
